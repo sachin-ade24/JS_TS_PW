@@ -62,10 +62,3 @@ console.log('Price: ', 100);
 //'' or "" --> Normal strin --> static string
 //`` --> dynamic string
 //${} --> placeholder
-
-
-
-
-
-
-
