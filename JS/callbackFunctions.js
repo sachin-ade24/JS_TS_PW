@@ -138,3 +138,16 @@ console.log('===================================================================
 //9.
 let mappedNums = num.map(e => e * 2);
 console.log(mappedNums);//[ 2, 4, 6, 8, 10 ]
+
+console.log('======================================================================');
+
+//10.
+function myCalc(a, b, callback){
+    return callback(a, b);
+};
+
+let s3 = myCalc(100, 400, function(a, b){
+    return a + b;
+});
+console.log(s3);//500
+
