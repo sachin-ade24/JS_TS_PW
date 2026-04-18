@@ -1,0 +1,8 @@
+This file can be referred as TS installation guide.
+
+Steps:
+1. Download node and install it
+2. Check node version: node -v
+3. Check npm version: npm -v (Download NPM: npm install -g npm)
+4. Creat a package.json file: npm init -y --> creates package.json
+5. TypeScript compiler initialization: tsc --init

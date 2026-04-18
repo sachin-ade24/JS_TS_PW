@@ -1,0 +1,35 @@
+{
+  "compilerOptions": {
+    /* Project Structure */
+    "rootDir": "./TS_Files",
+    "outDir": "./dist",
+
+    /* Module System (IMPORTANT) */
+    "module": "NodeNext",
+    "moduleResolution": "NodeNext",
+    "target": "ES2020",
+
+    /* Type Support */
+    "types": ["node"],
+
+    /* Output */
+    "sourceMap": true,
+    "declaration": true,
+    "declarationMap": true,
+
+    /* Strictness */
+    "strict": true,
+    "noUncheckedIndexedAccess": true,
+    "exactOptionalPropertyTypes": true,
+
+    /* Module Behavior */
+    "verbatimModuleSyntax": true,
+    "isolatedModules": true,
+
+    /* Performance */
+    "skipLibCheck": true
+  },
+
+  "include": ["TS_Files/**/*.ts"],
+  "exclude": ["node_modules", "dist"]
+}
