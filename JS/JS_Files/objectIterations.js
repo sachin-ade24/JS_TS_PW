@@ -66,7 +66,7 @@ address : { flat: 101, zip: 432121 }
 console.log('======================================================================');
 
 let personInfo = {
-        name: 'Tom',
+    name: 'Tom',
     age: 30,
     city: 'LA',
     isActive: true,
@@ -81,4 +81,3 @@ let personInfo = {
 
 console.log(personInfo.devices);//[ 'iphone', 'mouse', 'keyboard' ]
 console.log(personInfo.devices.length);//3
-

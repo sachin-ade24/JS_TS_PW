@@ -1,0 +1,25 @@
+JS code execution:
+   1. Google chrome uses V8 engine for execution of the JavaScript code in the browser.
+   2. The JavaScript code can be executed in the local machine by NodeJS.
+   3. The NodeJs provides environment to design and run the JS code in local machine.
+      It gives libraries/kit for writing JS code which include tools and V8 engine for JS execution.
+   4. The node version (v24.13.0) --> gives V8 JS Engine
+   5. JS Code --> Parser --> AST(Abstract Syntax Tree: segregate variabless, functions, expressions, class, objects, loops etc.) 
+      --> Interpreter (heps to run the code, generate o/p) --> 
+      (i) ByteCode (not a human readable code) --> converted to machine code i.e. binary code (010101) --> assembly language code --> o/p
+      (ii) Compiler --> interpreter supplies code to compiler. Compiler checks whether the code is Hot or Cold code
+         --> Optimize the code --> execution
+      - parser: removes the comments, shows basic syntax error, removes unnecessary spaces i.e. it decorate the code
+      - compiler decides whether the code is hot or cold. It is JIT (Just In Time compiler --> Turbo --> it Optimize the complex code
+      and then execution happens)
+      - cold code is a normal or simple code
+      - hot code is a complex or huge code
+
+JAVA vs JS:
+   1. JAVA checks most of the code at CT (Compile Time) --> Therefore JAVA is faster than JS
+   2. JS check most of the code at RT (Run Time) --> JS is RT/dynamic language --> because most of the things will be decide at RT
+
+Which one is faster? JAVA/JS/TS:
+   JAVA --> test.java --> test.class --> machine code (010101) --> o/p
+   JS --> test.js --> parser --> ast --> byte code --> machine code (010101) --> o/p
+   TS --> test.ts --> test.js --> parser --> ast --> byte code --> machine code (010101) --> o/p
