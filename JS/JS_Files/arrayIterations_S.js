@@ -11,6 +11,17 @@ numbers1.forEach((n, i)=>console.log((n*2) + i));
 54
 */
 
+const st_ar = ["Sachin", "Sarika", "Supriya", "Suraj"];
+st_ar.forEach((e)=>{
+    console.log(e.startsWith('S'));
+});
+/*
+true
+true
+true
+true
+*/
+
 
 console.log('======================================================================');
 
